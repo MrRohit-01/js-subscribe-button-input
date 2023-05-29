@@ -1,0 +1,32 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.b1{
+  padding: 10px 15px 10px 15px;
+  border-radius: 30px;
+  font-size: 1rem;
+  /* border: 1px solid rgb(28, 179, 229); */
+  background-color: black;
+  color: aliceblue;
+  border: none; 
+  font-weight: bold;
+  cursor: pointer;
+}
+.b1-changed{
+  background-color: rgb(240, 240, 240);
+  color: black;
+  border: none;
+}
+input{
+  width: 234px;
+  height: 25px;
+}
+.b2{
+  height: 31px;
+  width: 90px;
+  background-color: rgb(110, 224, 110);
+  border: 1px solid green;
+  font-weight: bold;
+  cursor: pointer;
+
+}

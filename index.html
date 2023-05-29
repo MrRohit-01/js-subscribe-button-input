@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>subscribe-input</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Subscribe this page</h1>
+    <button onclick="subscribe()" class="js-button b1">Subscribe</button>
+    <h2>amazon shipping calculator</h2>
+    <p>charges for shipping below $40 :- below $40 + $10</p>
+    <p>amazon shipping charges for above $40 is free</p>
+    <input
+      type="text"
+      placeholder="Enter the amount"
+      class="js-input"
+      onkeydown="onKeyDown(event)"
+    />
+    <button onclick="inputCost()" class="b2">calculate</button>
+    <p class="total"></p>
+  </body>
+  <script src="home.js"></script>
+</html>
